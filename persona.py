@@ -1,5 +1,5 @@
 # Esto es una prueba 
 print("Que tal Mundo?")
-print("Algo1")
+print("Hola")
+print("Algo")
 print("Algo2")
-print("Algo3")
