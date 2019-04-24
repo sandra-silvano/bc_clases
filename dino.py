@@ -6,10 +6,14 @@ class Dino:
         self.nombre = un_nombre
         print("Hola soy un dinosaurio, me llamo", self.nombre, "y tengo", self.patas, "patas")
     
-    def gte_patas(self):
+    def get_patas(self):
         return self.patas
     
     def set_patas(self, cantidad):
         self.patas = cantidad
 
+    def cortar_patas(self):
+        self.patas = self.patas - 1
+
 pepito = Dino(4, "Pepito")
+
